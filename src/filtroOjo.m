@@ -1,11 +1,12 @@
+pkg load image;
 LK= 0.4;
 
 mascara=ones(3);
 mascara=mascara*-1;
 mascara(2,2)=10;
 
-im1=imread('../img/face/NOIz07.bmp'); %Imagen centrada del ojo izquierdo 91x91
-imO= imread('../img/face/Prueba07.bmp'); %Imagen original
+im1=imread('../img/face/07O.bmp'); %Imagen centrada del ojo izquierdo 91x91
+imO= imread('../img/face/07.bmp'); %Imagen original
 im2 = imcrop(imO, [90,98,90,90]); %Imagen recortada 91x91
 
 %Dominio de Fourier
