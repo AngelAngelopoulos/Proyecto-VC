@@ -1,0 +1,1 @@
+% Programa filtros fspecial()% Luis Angel Alvarado Hernandez% Vision Computacional% Prof pkg load imageimgMuestra = imread("image.jpg");
