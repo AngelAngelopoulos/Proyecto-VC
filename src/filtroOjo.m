@@ -15,7 +15,7 @@ imshow(im1);
 imwrite(im1, "91x91.bmp");
 
 %Dominio de Fourier
-H_Filtro = fft2(im1); %Mï¿½scara o filtro
+H_Filtro = fft2(im1); %Máscara o filtro
 O_Filtro = fft2(im2); %Imagen entrante
 
 %figure, imshow(im1);
