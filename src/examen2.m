@@ -62,5 +62,5 @@ for ival=1:2:7190
 endfor
 
 
-plot(mat1(:,4));
+plot(mat(:,4));
 plot(mat2(:,4));
